@@ -1,0 +1,42 @@
+/* CSS untuk halaman visual novel */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/background.png'); /* Latar belakang untuk halaman visual novel */
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Warna teks pada halaman visual novel */
+    opacity: 1; /* Opacity awal diatur menjadi 0 (transparan) */
+    transition: opacity 1s ease-in-out; /* Animasi transisi */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.choice-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.choice-button:hover {
+    background-color: #2980b9;
+}

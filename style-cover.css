@@ -1,0 +1,48 @@
+/* CSS untuk halaman cover */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/cover.png'); /* Latar belakang untuk halaman cover */
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Warna teks pada halaman cover */
+}
+
+.cover-container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Menambahkan latar belakang semi-transparan */
+    border: 2px solid black; /* Mengubah warna border menjadi hitam */
+    border-radius: 10px; /* Mengatur sudut border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Menambahkan bayangan */
+    margin: 10px; /* Memusatkan dari atas ke bawah */
+    max-width: 200px;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-40%, -25%);
+}
+
+.cover-container h1 {
+    font-size: 36px;
+}
+
+.cover-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cover-container a {
+    background-color:black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.cover-container a:hover {
+    background-color: #2980b9;
+}
+
